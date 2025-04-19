@@ -1,14 +1,14 @@
 /* DEVELOPER: Jack Shi, IS117-102, Spring 2025 */
 body {
     font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem; 
     line-height: 1.6;
-    color: darkgray;
-    background-color: whitesmoke;
+    color: rgb(40, 40, 40); 
+    background-color: rgb(245, 245, 245); 
 }
 
 .navbar {
-    box-shadow: 0 2px 4px gray; 
+    box-shadow: 0 2px 4px rgb(128, 128, 128); 
     opacity: 0.1;
 }
 
@@ -17,11 +17,11 @@ body {
 }
 
 h1, h3 {
-    color: darkslategray;
+    color: rgb(20, 50, 80); 
 }
 
 .card {
-    transition: transform 0.2s;
+    transition: transform 0.5s;
     max-width: 400px; 
 }
 
@@ -42,11 +42,11 @@ h1, h3 {
 .carousel-control-prev,
 .carousel-control-next {
     width: 10%; 
-    background: gray; 
+    background: rgb(128, 128, 128); 
     opacity: 0.9; 
     top: 50%; 
     transform: translateY(-50%);
-    height: 50px; 
+    height: 50px;
 }
 
 .carousel-control-prev {
@@ -59,11 +59,11 @@ h1, h3 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-image: none; 
-    width: 30px; 
+    background-image: none;
+    width: 30px;
     height: 30px;
     border-radius: 50%; 
-    background-color: gray; 
+    background-color: rgb(128, 128, 128); 
     position: relative;
 }
 
@@ -74,7 +74,7 @@ h1, h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: solid white; 
+    border: solid rgb(255, 255, 255); 
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 6px;
@@ -92,6 +92,12 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: rgb(30, 30, 30); 
+    color: rgb(255, 255, 255); 
+}
+
+.footer-link {
+    color: rgb(255, 255, 255); 
 }
 
 .footer-link:hover {
@@ -99,9 +105,9 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
     body {
-        font-size: 0.875rem;
+        font-size: 0.95rem; 
     }
 
     .navbar-nav {
@@ -114,7 +120,7 @@ footer {
     }
 
     .carousel {
-        max-width: 100%; 
+        max-width: 100%;
     }
 
     .carousel-item .card {
@@ -128,16 +134,16 @@ footer {
     }
 
     .carousel-control-prev {
-        left: -10px; 
+        left: -10px;
     }
 
     .carousel-control-next {
-        right: -10px; 
+        right: -10px;
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        width: 20px; 
+        width: 20px;
         height: 20px;
     }
 
