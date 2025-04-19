@@ -18,6 +18,11 @@ nav.navbar {
     color: rgb(255, 255, 255) !important;
 }
 
+nav.navbar .nav-link,
+nav.navbar .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
 .container {
     max-width: 960px;
 }
