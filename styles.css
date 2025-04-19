@@ -1,44 +1,15 @@
+/* DEVELOPER: Jack Shi, IS117-102, Spring 2025 */
 body {
     font-family: Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.1rem; 
     line-height: 1.6;
-    color: rgb(40, 40, 40);
-    background-color: rgb(245, 245, 245);
+    color: rgb(40, 40, 40); 
+    background-color: rgb(245, 245, 245); 
 }
 
 .navbar {
-    box-shadow: 0 2px 4px rgb(128, 128, 128);
-    opacity: 1;
-    background-color: black;
-}
-
-.navbar-light .navbar-brand,
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:active {
-    color: white !important; 
-}
-
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:active,
-.navbar-light .navbar-nav .nav-link.active {
-    color: white !important; 
-}
-
-.navbar-light .dropdown-toggle,
-.navbar-light .dropdown-toggle:hover,
-.navbar-light .dropdown-toggle:focus,
-.navbar-light .dropdown-toggle:active {
-    color: white !important;
-}
-
-.navbar-light .dropdown-item,
-.navbar-light .dropdown-item:hover,
-.navbar-light .dropdown-item:focus,
-.navbar-light .dropdown-item:active {
-    color: black !important; 
+    box-shadow: 0 2px 4px rgb(128, 128, 128); 
+    opacity: 0.1;
 }
 
 .container {
@@ -46,16 +17,12 @@ body {
 }
 
 h1, h3 {
-    color: rgb(20, 50, 80);
-}
-
-.lead {
-    color: rgb(0, 0, 0);
+    color: rgb(20, 50, 80); 
 }
 
 .card {
     transition: transform 0.2s;
-    max-width: 400px;
+    max-width: 400px; 
 }
 
 .card:hover {
@@ -63,27 +30,27 @@ h1, h3 {
 }
 
 .carousel-item .card {
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .carousel {
     position: relative;
-    max-width: 450px;
-    margin: 0 auto;
+    max-width: 450px; 
+    margin: 0 auto; 
 }
 
 .carousel-control-prev,
 .carousel-control-next {
     width: 10%;
-    background: rgb(128, 128, 128);
+    background: rgb(128, 128, 128); 
     opacity: 0.9;
-    top: 50%;
+    top: 50%; 
     transform: translateY(-50%);
     height: 50px;
 }
 
 .carousel-control-prev {
-    left: -50px;
+    left: -50px; 
 }
 
 .carousel-control-next {
@@ -92,11 +59,11 @@ h1, h3 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-image: none;
-    width: 30px;
+    background-image: none; 
+    width: 30px; 
     height: 30px;
-    border-radius: 50%;
-    background-color: rgb(128, 128, 128);
+    border-radius: 50%; 
+    background-color: rgb(128, 128, 128); 
     position: relative;
 }
 
@@ -107,30 +74,30 @@ h1, h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: solid rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255); 
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 6px;
 }
 
 .carousel-control-prev-icon::before {
-    transform: translate(-50%, -50%) rotate(135deg);
+    transform: translate(-50%, -50%) rotate(135deg); 
 }
 
 .carousel-control-next-icon::before {
-    transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg); 
 }
 
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: rgb(30, 30, 30);
-    color: rgb(255, 255, 255);
+    background-color: rgb(30, 30, 30); 
+    color: rgb(255, 255, 255); 
 }
 
 .footer-link {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); 
 }
 
 .footer-link:hover {
@@ -138,9 +105,10 @@ footer {
     text-decoration: underline;
 }
 
+
 @media (max-width: 576px) {
     body {
-        font-size: 0.95rem;
+        font-size: 0.95rem; 
     }
 
     .navbar-nav {
@@ -149,21 +117,21 @@ footer {
 
     .card {
         margin-bottom: 1rem;
-        max-width: 100%;
+        max-width: 100%; 
     }
 
     .carousel {
-        max-width: 100%;
+        max-width: 100%; 
     }
 
     .carousel-item .card {
-        padding: 0 15px;
+        padding: 0 15px; 
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-        width: 15%;
-        height: 40px;
+        width: 15%; 
+        height: 40px; 
     }
 
     .carousel-control-prev {
@@ -171,7 +139,7 @@ footer {
     }
 
     .carousel-control-next {
-        right: -10px;
+        right: -10px; 
     }
 
     .carousel-control-prev-icon,
