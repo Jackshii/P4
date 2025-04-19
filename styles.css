@@ -11,7 +11,15 @@ body {
     opacity: 0.1;
 }
 
-.nav-link {
+.navbar-brand {
+    color: rgb(0, 0, 0); 
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0); 
+}
+
+.dropdown-toggle {
     color: rgb(0, 0, 0); 
 }
 
@@ -24,7 +32,7 @@ h1, h3 {
 }
 
 .lead {
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
 }
 
 .card {
